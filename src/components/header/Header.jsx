@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BsGithub } from 'react-icons/bs'
 
 const Header = () => {
     return (
@@ -18,7 +19,10 @@ const Header = () => {
                             <Link to='/harmonyhub'>What is HarmonyHub?</Link>
                         </li>
                         <li className="hover:underline">
-                            <a target="blank" href="https://github.com/mehmetenfa/harmony-hub">Source Code</a>
+                            <a target="blank" href="https://github.com/mehmetenfa/harmony-hub" className="flex items-center gap-2">
+                                Source Code
+                                <BsGithub size={20} />
+                            </a>
                         </li>
                     </ul>
                 </div>
