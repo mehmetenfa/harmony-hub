@@ -2,7 +2,11 @@ import React from "react";
 
 const HarmonyHub = () => {
     return (
-        <div>HarmonyHub</div>
+        <div>
+            <div>
+                <h1>What is HarmonyHub?</h1>
+            </div>
+        </div>
     )
 }
 
